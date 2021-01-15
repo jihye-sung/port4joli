@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang=“en”>
+  <head>
+    <meta charset=“UTF-8">
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>PORTFOLIO</title>
+
+    <script type="text/javascript">
+      // F12 버튼 방지
+      $(document).ready(function(){
+          $(document).bind('keydown',function(e){
+              if ( e.keyCode == 123 /* F12 */) {
+                  e.preventDefault();
+                  e.returnValue = false;
+              }
+          });
+      });
+      
+      // 우측 클릭 방지
+      document.onmousedown=disableclick;
+      status="Right click is not available.";
+      
+      function disableclick(event){
+          if (event.button==2) {
+              alert(status);
+              return false;
+          }
+      }
+  </script>
+  
+  
+ 
+    <style>
+        
+         .mytitle {
+            width: 300px;
+            height: 300px;
+            color: white;
+            text-align: center;
+
+            background-image: url('http://drive.google.com/uc?export=view&id=16COh3q40GQ3Ooy2rQhUTLGos0pbQSBrx');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+            padding-top: 50px;
+        }
+        .mytitle2 {
+            width: 300px;
+            height: 300px;
+            color: white;
+            text-align: center;
+
+            background-image: url('http://drive.google.com/uc?export=view&id=1kDrPzVpSNNTOhqRT_d04vMpzfhVTsGkH');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+            padding-top: 50px;}
+
+
+            .mytitle3 {
+            width: 300px;
+            height: 300px;
+            color: white;
+            text-align: center;
+
+            background-image: url('http://drive.google.com/uc?export=view&id=1VcS_N3EvL9UFyGnXdVb5VSJImi_lieQQ');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+            padding-top: 50px;}
+
+
+            .mytitle4 {
+            width: 300px;
+            height: 300px;
+            color: white;
+            text-align: center;
+
+            background-image: url('http://drive.google.com/uc?export=view&id=1HqW07JKjRnwB4llS_JV3etVGmYPFics6');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+            padding-top: 50px;}
+
+        .wrap {
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+        text-align: center;
+        padding-top: 3px;
+        }
+     
+    </style>
+    
+    </head>
+  <body>
+      
+  
+    
+    <div class="jumbotron text-center">
+      <h1>Jihye Portfolio</h1>
+      <p>still editing! beta 언제 고치지...</p> 
+    </div>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>하냥봇</h3>
+          <p>한양대학교 ERICA 학우들의 정보제공 앱 서비스 (사진 클릭 ,버튼 고치기)</p>
+          
+          <button onclick="window.open('https://hanyang-bot.netlify.app');"style="width: 300px; height: 300px;"> 
+            <div class="mytitle"> </div></button>
+    
+        
+        </div>
+
+        <div class="col-sm-4">
+          <h3>휴아시스</h3>
+          <p>휴게소도 여행지다! 여행지와 휴게소 소개 앱 서비스
+            <br>안겹치게 고쳐
+          </p>
+         
+          <button onclick="window.open('https://hyuasis.netlify.app');" style="width: 300px; height: 300px;"> 
+            <div class="mytitle2"></div></button>
+          
+        </div>
+        <div class="col-sm-4">
+          <h3>볼빗 (BORBIT)</h3>        
+          <p>보험 가입의 첫 경험은 볼빗을 통해서! 보린이를 위한 보험 소싱 앱 서비스</p>
+          <button onclick="window.open('https://borbit.netlify.app'); "style="width: 300px; height: 300px;"> 
+            <div class="mytitle3"></div></button>
+        </div>
+      </div>
+
+       </div>
+        <div class="col-sm-4">
+          <h3>현대백화점 판교점 판교랜드</h3>        
+          <p>현대백화점 행사 판교랜드를 위한 애니메이션 홍보영상</p>
+          <button onclick="window.open('https://pangyoland.netlify.app'); "style="width: 300px; height: 300px;"> 
+            <div class="mytitle4"></div></button>
+        </div>
+      </div>
+    </div>
+
+
+  
+        
+
+        </div>
+
+  
+       
+    </div>
+
+</body>
+
+</html>
+</body>
+
+</html>

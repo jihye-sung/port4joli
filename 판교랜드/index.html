@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>판교랜드 홍보영상</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+      <style>
+           * {font-family:  'Black Han Sans', sans-serif;}
+       
+
+        img { display: block; margin: 0px auto; }
+        .video-width-activity {
+       height: 100%;
+       width: 100%;
+}
+      img {
+        max-width: 100%;
+        height: auto !important;
+            
+            div{ 
+              text-align: center;
+              margin: auto;}
+      
+            p{text-align: center}
+
+
+       
+            .video {
+            position: relative; 
+            padding-bottom: 56.25%;
+            height:0; 
+            overflow:hidden; 
+            }
+            .video iframe,
+            .video object,
+            .video embed { 
+                position: absolute; 
+                top: 0; 
+                left: 0;
+                width: 100%; 
+                height:100%; 
+            }
+      
+        </style>
+            
+    </head>
+    <body onDragStart="return false"
+    onContextMenu="return false"
+>
+
+  
+
+    <p style="text-align: center;">
+      <div>
+        <img src='http://drive.google.com/uc?export=view&id=1Rf5Cs84Padan6eTeRw27N7-J5xVdunY_' />
+        <img src='http://drive.google.com/uc?export=view&id=1HcxwGR776h_0KkRe-t4B7eCpLHgWIdFT' /><br>
+       
+       <div class = "video">
+       <p align="middle"><iframe src="https://www.youtube.com/embed/ETPavynKt3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="360" width="640"></iframe>
+       </p>
+            </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        
+    </div>
+        
+                                                    
+  
+    
+    </body>
+    </html>

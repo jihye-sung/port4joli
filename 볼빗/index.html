@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Jihye's Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+      <style>
+           * {font-family:  'Black Han Sans', sans-serif;}
+       
+
+        img { display: block; margin: 0px auto; }
+        .video-width-activity {
+       height: 100%;
+       width: 100%;
+}
+      img {
+        max-width: 100%;
+        height: auto !important;
+            
+            div{ 
+              text-align: center;
+              margin: auto;}
+      
+            p{text-align: center}
+            
+      
+        </style>
+            
+    </head>
+    <body onDragStart="return false"
+    onContextMenu="return false"
+>
+
+  
+
+    <p style="text-align: center;">
+      <div>
+
+        <img src='http://drive.google.com/uc?export=view&id=1ug8K8PW9r7N_bwwhxdPvMYhTxejkIdi7' />
+        <img src='http://drive.google.com/uc?export=view&id=1Zc6isKmPry56vmFyoTLVDpWFD3AKNyS4' />
+        <img src='http://drive.google.com/uc?export=view&id=16iY6Gc74VcPvPanQNWmpq1DXCwJ0hHib' />
+        <img src='http://drive.google.com/uc?export=view&id=1NZoixTY4SAw_cnUXQFjOMdP9dBPfJ1yi' />
+
+               
+               
+              </div>                                                                                            
+  
+    
+    </body>
+    </html>
